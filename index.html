@@ -24,8 +24,12 @@
             <ul>
                 <li><a href="#home" class="scroll active" id="home-link">Home</a></li>
                 <li><a href="#about" class="scroll" id="about-link">About</a></li>
+                <li><a href="#skills" class="scroll" id="skills-link">Skills</a></li>
                 <li><a href="#projects" class="scroll" id="projects-link">Projects</a></li>
-                <li><a href="#contact" class="scroll" id="contact-link">Contact</a></li>
+                <li><a href="#contact" class="scroll" id="contact-link">Contacts</a></li>
+                
+                
+
              <!---   <li><button id="theme-toggle">Switch to dark mode</button></li>--->"
             </ul>
         </nav>
@@ -42,6 +46,18 @@
             <img src="https://i.postimg.cc/BQ8rh7Wy/Screenshot-20200428-130955-1.jpg" alt="Picture of Rachel Oyugi" id="myPicture">
             <p>Rachel is a Backend developer and Ethical hacker who seeks to solve humans problems and bring about sustainable development to the human race. </p>
         </section>
+        </section>
+         <section class="skillsBox" id="skills">
+            <ul id="skill">
+                <li><span class="bar graphic-design"></span><h3>Python</h3></li>
+                <li><span class="bar html-css"></span><h3>Html // Css</h3></li>
+                <li><span class="bar jquery"></span><h3>Kotlin</h3></li>
+                <li><span class="bar wordpress"></span><h3>Javascript</h3></li>
+            </ul>
+
+
+        </section>
+        
 
         <!-- Portfolio section -->
         <section class="portfoliBox" id="projects">
@@ -96,33 +112,7 @@
                 <a href="https://github.com/" target="_blank" class="logo">GitHub</a>---->
              
             
-        </section>
-        <!----<script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', () => {
-
-    const themeStylesheet = document.getElementById('theme');
-    const storedTheme = localStorage.getItem('theme');
-    if(storedTheme){
-        themeStylesheet.href = storedTheme;
-    }
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-        // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            themeToggle.innerText = 'Switch to light mode';
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            themeToggle.innerText = 'Switch to dark mode';
-        }
-        // save the preference to localStorage
-        localStorage.setItem('theme',themeStylesheet.href)  
-    })
-})
-
-        </script>---->
-        <!-- Footer -->
+        
        
     </body>
 </html>
